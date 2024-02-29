@@ -38,9 +38,6 @@
     "nodemon": "^2.0.15",
     "prettier": "^2.8.0"
   },
-  "dependencies": {
-    "array-has-length": "^1.0.0"
-  },
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -rf ./dist && npm run test && npm run prettier",
